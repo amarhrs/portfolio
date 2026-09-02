@@ -2,6 +2,30 @@
 const projects = [
   {
     id: "01",
+    name: "Customer Segmentation & Retention Analytics",
+    image: "assets/img/customer-segmentation.png",
+    link: "https://drive.google.com/file/d/10yyevFBdAdCP7UOas6BcWw7m1VvkHb0d/view?usp=sharing",
+    description:
+      "Analisis RFM & Cohort Retention untuk memetakan perilaku dan retensi pelanggan Gayanara. Menyajikan insight mendalam untuk mengidentifikasi segmen churn, mengevaluasi loyalitas, serta mengoptimalkan kampanye CRM dan win-back yang tepat sasaran.",
+  },
+  {
+    id: "02",
+    name: "Strategi Optimasi Kinerja Bisnis & Operasional",
+    image: "assets/img/kinerja-bisnis.png",
+    link: "https://drive.google.com/file/d/1itkGk799tNdueNk9kPhzD9RaRHEuhXPU/view?usp=sharing",
+    description:
+      "Analisis data menyeluruh pada operasional Gayanara meliputi sales, inventory, promo, dan logistik. Menghasilkan rekomendasi strategis untuk restock produk prioritasi, eliminasi dead stock, pemetaan pasar potensial, serta penekanan cancellation & return rate.",
+  },
+  {
+    id: "03",
+    name: "Strategi Data Quality & Standardisasi Kategori",
+    image: "assets/img/data-quality.png",
+    link: "https://drive.google.com/file/d/10n0K-zNvwRY2PA0Q0tKujr6PcEliXygV/view?usp=sharing",
+    description:
+      "Kerangka audit data operasional Gayanara untuk memperbaiki masalah kualitas data. Berfokus pada standardisasi ketidaksesuaian kategori produk, penanganan missing value, pembersihan duplikasi pelanggan, serta validasi integritas transaksi demi pelaporan bisnis yang akurat.",
+  },
+  {
+    id: "04",
     name: "E-Commerce Sales Performance & Campaign Analytics Dashboard",
     image: "assets/img/visual-project.png",
     link: "https://drive.google.com/file/d/10yyevFBdAdCP7UOas6BcWw7m1VvkHb0d/view?usp=sharing",
@@ -9,7 +33,7 @@ const projects = [
       "Dashboard interaktif untuk monitoring penjualan e-commerce 2022. Menyajikan tren campaign lewat metrik Value Sales, Net Profit, dan AOV, serta analisis khusus produk Mobile & Tablet menggunakan pembayaran JazzWallet.",
   },
   {
-    id: "02",
+    id: "05",
     name: "E-Commerce End-to-End Sales Performance & Campaign Analytics",
     image: "assets/img/python-project.png",
     link: "https://drive.google.com/file/d/1itkGk799tNdueNk9kPhzD9RaRHEuhXPU/view?usp=sharing",
@@ -17,44 +41,12 @@ const projects = [
       "Analisis data Tokopaedi menggunakan Python di Google Colab untuk mengevaluasi tren produk terlaris, penurunan penjualan inventaris, segmentasi pelanggan belum bayar, serta efektivitas campaign kuartal empat berbasis transaksi harian weekdays vs weekends.",
   },
   {
-    id: "03",
+    id: "06",
     name: "E-Commerce Revenue & Customer Funnel Analytics via SQL",
     image: "assets/img/sql-project.png",
     link: "https://drive.google.com/file/d/10n0K-zNvwRY2PA0Q0tKujr6PcEliXygV/view?usp=sharing",
     description:
       "Analisis data transaksi menggunakan SQL untuk mengevaluasi tren sales bulanan, volume kategori tahunan, performa channel penjualan, konversi funnel event organic, serta retensi pendaftaran pelanggan baru untuk optimasi onboarding.",
-  },
-  {
-    id: "04",
-    name: "Interactive Sales Analysis Dashboard",
-    image: "assets/img/visual2-project.png",
-    link: "https://drive.google.com/file/d/1mUK65fhnA-MDBIUVRYNL2tS-MECQwL3N/view?usp=sharing",
-    description:
-      "Membangun dasbor analisis penjualan interaktif menggunakan Google Looker Studio. Analisis ini berhasil mengidentifikasi pola musiman kuartalan, memetakan hotspot wilayah kontributor tertinggi, serta menemukan peluang cross-selling strategis berbasis profitabilitas produk.",
-  },
-  {
-    id: "05",
-    name: "SQL for Data Analysis: E-Commerce Business Performance Audit",
-    image: "assets/img/sql-for-da-project.png",
-    link: "https://drive.google.com/file/d/147rzzmrJAsUk8lME5sC9yEhuIpxXlHkT/view?usp=sharing",
-    description:
-      "Melakukan analisis performa bisnis e-commerce menggunakan SQL untuk memvalidasi integritas data pelanggan. Hasilnya sukses mengidentifikasi produk terlaris, kerugian operasional, serta pemetaan revenue wilayah demi optimalisasi target pemasaran.",
-  },
-  {
-    id: "06",
-    name: "Introduction to Problem Solving: Business Cost & Revenue Audit",
-    image: "assets/img/problem-solving-project.png",
-    link: "https://drive.google.com/file/d/1y_1L7DMeE7Wph_0esk7rEs5EhdMtBqTQ/view?usp=sharing",
-    description:
-      "Membangun framework problem solving untuk mengidentifikasi akar penyebab lonjakan biaya operasional dan penurunan revenue inter-years. Hasilnya sukses merumuskan alternatif solusi strategis berbasis efisiensi biaya marketing, labor, dan infrastruktur.",
-  },
-  {
-    id: "07",
-    name: "Intro to Data Analytics: Business Anomaly & Analytical Thinking Framework",
-    image: "assets/img/analytic-project.png",
-    link: "https://drive.google.com/file/d/1cc0_NSmdcA_h4WgVocRQxhzTFpkNV0-l/view?usp=sharing",
-    description:
-      "Membangun tiga framework berpikir analitis untuk membedah masalah bisnis strategis. Menyelidiki akar penyebab lonjakan transaksi mendadak akibat program promo, mengidentifikasi pemicu anomali waktu tunggu transaksi uang, serta menganalisis inefisiensi biaya akuisisi pelanggan (CAC).",
   },
 ];
 const projectWrapper = document.getElementById("project-wrapper");
